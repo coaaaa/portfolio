@@ -23,7 +23,7 @@ import { NuxtLink } from "#components";
         coaaaaa@proton.me
       </NuxtLink>
 
-      <NuxtLink class="flex gap-1 items-center cursor-pointer">
+      <NuxtLink href="#" class="flex gap-1 items-center cursor-pointer">
         <Icon name="mdi:telegram" size="1.25em" />
         @coa_a
       </NuxtLink>
