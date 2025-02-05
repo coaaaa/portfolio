@@ -5,6 +5,10 @@ const scrollToContact = () => {
   const contact = document.getElementById("contact");
   contact?.scrollIntoView({ behavior: "smooth" });
 };
+
+const navigateToProjects = () => {
+  navigateTo("/projects");
+};
 </script>
 
 <template>
@@ -24,7 +28,9 @@ const scrollToContact = () => {
 
     <div class="flex gap-2 mt-6">
       <Button @click="scrollToContact">Contact me</Button>
-      <Button variant="secondary"> My projects </Button>
+      <Button @click="navigateToProjects" variant="secondary">
+        My projects
+      </Button>
     </div>
   </div>
 </template>
