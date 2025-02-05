@@ -17,8 +17,11 @@ export default defineNuxtConfig({
       Inter: true,
     },
   },
-  app:{
-    head:{
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "Portfolio",
@@ -28,5 +31,6 @@ export default defineNuxtConfig({
           content: "Simple portfolio to showcase my projects and skills",
         },
       ],
+    },
   },
 });
